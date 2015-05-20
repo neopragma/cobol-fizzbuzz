@@ -1,0 +1,15 @@
+# general
+
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.exe
+*.dll
+*.so
+
+# project specific
+
+target
+*TESTPRG*
