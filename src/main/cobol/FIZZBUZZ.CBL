@@ -61,36 +61,10 @@
            .
 
        1000-PROCESS-NUMBER.
-           MOVE SPACES TO CURRENT-RESULT FIZZ-OUT BUZZ-OUT
-           MOVE 15 TO THE-DIVISOR
-           PERFORM 2000-DIVIDE
-           IF THE-REMAINDER = 0
-               MOVE "FIZZBUZZ" TO CURRENT-RESULT
-           END-IF        
-           IF  CURRENT-RESULT = SPACES
-               MOVE 3 TO THE-DIVISOR
-               PERFORM 2000-DIVIDE
-               IF THE-REMAINDER = 0
-                   MOVE "FIZZ" TO CURRENT-RESULT
-               END-IF
-           END-IF
-           IF  CURRENT-RESULT = SPACES        
-               MOVE 5 TO THE-DIVISOR
-               PERFORM 2000-DIVIDE
-               IF THE-REMAINDER = 0
-                   MOVE "BUZZ" TO CURRENT-RESULT
-               END-IF
-           END-IF       
-           IF  CURRENT-RESULT = SPACES 
-               MOVE CURRENT-NUMBER TO CURRENT-RESULT
-           END-IF    
-           .
 
-       2000-DIVIDE.
-           DIVIDE THE-DIVISOR INTO CURRENT-NUMBER 
-               GIVING THE-QUOTIENT 
-               REMAINDER THE-REMAINDER 
-           END-DIVIDE
+      *****************************************************************
+      * Your code goes here.                                          *
+      *****************************************************************
            .
    
        9999-END.
