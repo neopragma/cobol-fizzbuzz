@@ -12,6 +12,12 @@ Clone this repo:
 git clone [path-to-repository]/cobol-fizzbuzz
 ```
 
+Create the output directory:
+
+```shell
+mkdir target
+```
+
 Compile the unit test preprocessor:
 
 (Linux)
